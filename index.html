@@ -1,8 +1,71 @@
 <html>
-    <style>
-    </style>
-    <h1 style="background-color: rgb(255, 137, 50); width: 100%;">
-        <img src="src/img/league_logo.png" alt="league_logo" height="100">
-    </h1>
+    <head>
+        <style>
+            table, th, td {
+                border: 1px solid;
+                border-collapse: collapse;
+                background-color: white;
+            }
+            h1 {background-color: rgb(255, 137, 50); width: 100%; margin: 0;}
+            body {background-color: rgb(250, 230, 218); width: 100%; margin: 0;}
+            .button {
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+            .button1 {
+                background-color: white;
+                color: black;
+                border: 2px solid rgb(255, 168, 106);
+            }
+
+            .button1:hover {
+                background-color: rgb(255, 168, 106);
+                color: white;
+            }
+
+            .button2 {
+                background-color: white;
+                color: black;
+                border: 2px solid #008CBA;
+            }
+
+            .button2:hover {
+                background-color: #008CBA;
+                color: white;
+            }
+            
+        </style>
+    </head>
     <body>
+        <h1>
+            <img src="src/img/league_logo.png" alt="league_logo" height="100" >
+            <!-- <button class="button button1">Green</button> -->
+        </h1>
+        <p>
+            Playoff
+        </p>
+        <p>
+            Group Stage
+            <table>
+                <tr>Group A</tr>
+                <tr>
+                    <th>Team</th>
+                    <th>Mathes</th>
+                    <th>Win</th>
+                    <th>Tie</th>
+                    <th>Lose</th>
+                    <th>Round Difference</th>
+                    <th>Points</th>
+                </tr>
+              </table>
+        </p>
+    </body>
 </html>
